@@ -1,4 +1,4 @@
-#FCA2 FC Auto Analyser v0.4 beta (set/19)
+# FCA2 FC Auto Analyser v0.4 beta (set/19)
 
 FCA2 é um algoritmo em Python criado para análise exploratória básica de dados, que visa
 trazer produtividade para analistas. Desenvolvido por Fabiano Castello, é disponibilizado
