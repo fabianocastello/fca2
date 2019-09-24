@@ -26,4 +26,5 @@ A leitura é automática.
 ## NOTAS IMPORTANTES
 
 __ várias pastas em arquivos xls ou xlsx: o FCA2 pegará a primeira delas para analisar.
+
 __ Vírgula "," ou ponto e vírgula ";" em arquivos CSV: o FCA2 conta o número de ocorrências de cada tipo na primeira linha do arquivo, e considera como separador o maior número de ocorrências
