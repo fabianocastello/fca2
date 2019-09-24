@@ -10,7 +10,7 @@ FCA2 é disponibilizado em beta. Use por seu próprio risco.
 Contato com o desenvolvedor original em fabianocastello.com
 Código mais atualizado disponível em github.com/fabianocastello
 
-#PARÂMETROS
+## PARÂMETROS
 Parâmetros podem ser alterados no início do código. São auto-explicativos:
 
 datain  = ".\data.in"    #coloque aqui seus arquivos xls ou csv
@@ -20,12 +20,12 @@ datatmp = ".\data.tmp"   #arquivos temporários. Será limpo após o processamen
 
 max_freq = 10            #numeros de categorias máximas nos campos texto 
 
-#COMO USAR
+## COMO USAR
 
 Basta colocar seus arquivos formato xls, xlsx ou csv no diretório de entrada.
 A leitura é automática.
 
-#NOTAS IMPORTANTES
+## NOTAS IMPORTANTES
 
 > várias pastas em arquivos xls ou xlsx: o FCA2 pegará a primeira delas para analisar.
 > Vírgula "," ou ponto e vírgula ";" em arquivos CSV: o FCA2 conta o número de ocorrências 
