@@ -1,4 +1,4 @@
-# FCA2 FC Auto Analyser v0.5 beta (set/19)
+# FCA2 FC Auto Analyser v0.6 beta (set/19)
 
 (English version on the way - please be pacient)
 
@@ -45,3 +45,6 @@ __ colocar todas as informações juntas em um PDF.
 __ inserir data labes nos histogramas.
 __ montar correlação entre variáveis numéricas.
 __ criar uma versão compilada para ampliar o uso por pessoas que não usam python
+
+
+
