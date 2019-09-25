@@ -1,0 +1,291 @@
+FCA2 FC Auto Analyser v0.6 beta (set/19)
+Arquivo titanic.csv
+--------------------------------------------------------------------------------
+### MORFOLOGIA de titanic.csv
+
+ 891 registros e 12 campos, sendo: 
+
+   5 campos tipo texto
+     [Name | Sex | Ticket | Cabin | Embarked]
+   5 campos tipo numérico (inteiro)
+     [PassengerId | Survived | Pclass | SibSp | Parch]
+   2 campos tipo numério (decimal)
+     [Age | Fare]
+   0 campos de outros tipos
+--------------------------------------------------------------------------------
+### ANÁLISE DOS CAMPOS TIPO TEXTO de titanic.csv
+
+1) ** Name [NAME] 
+
+      registros:  891 
+      missing:    0 
+      válidos:    891 
+      duplicados: 0 
+      categorias: 891 
+
+      <<<categorias = registros, zero duplicados>>>
+ 
+
+2) ** Sex [SEX] 
+
+      registros:  891 
+      missing:    0 
+      válidos:    891 
+      duplicados: 889 
+      categorias: 2 
+
+      Freqs  [f.abs] [ f.rel%] [f.acc%] categorias (max = 10)
+      [         577] [  64.8%] [ 64.8%] male 
+      [         314] [  35.2%] [100.0%] female 
+ 
+
+3) ** Ticket [TICKET] 
+
+      registros:  891 
+      missing:    0 
+      válidos:    891 
+      duplicados: 210 
+      categorias: 681 
+
+      Freqs  [f.abs] [ f.rel%] [f.acc%] categorias (max = 10)
+      [           7] [   0.8%] [  0.8%] 1601 
+      [           7] [   0.8%] [  1.6%] CA. 2343 
+      [           7] [   0.8%] [  2.4%] 347082 
+      [           6] [   0.7%] [  3.0%] 347088 
+      [           6] [   0.7%] [  3.7%] CA 2144 
+      [           6] [   0.7%] [  4.4%] 3101295 
+      [           5] [   0.6%] [  4.9%] 382652 
+      [           5] [   0.6%] [  5.5%] S.O.C. 14879 
+      [           4] [   0.4%] [  5.9%] 17421 
+      [           4] [   0.4%] [  6.4%] 113760 
+      [           4] [   0.4%] [  6.8%] 19950 
+ 
+
+4) ** Cabin [CABIN] 
+
+      registros:  891 
+      missing:    687 
+      válidos:    204 
+      duplicados: 57 
+      categorias: 147 
+
+      Freqs  [f.abs] [ f.rel%] [f.acc%] categorias (max = 10)
+      [           4] [   0.4%] [  0.4%] C23 C25 C27 
+      [           4] [   0.4%] [  0.9%] G6 
+      [           4] [   0.4%] [  1.3%] B96 B98 
+      [           3] [   0.3%] [  1.7%] E101 
+      [           3] [   0.3%] [  2.0%] F2 
+      [           3] [   0.3%] [  2.4%] F33 
+      [           3] [   0.3%] [  2.7%] C22 C26 
+      [           3] [   0.3%] [  3.0%] D 
+      [           2] [   0.2%] [  3.3%] E24 
+      [           2] [   0.2%] [  3.5%] D20 
+      [           2] [   0.2%] [  3.7%] B58 B60 
+ 
+
+5) ** Embarked [EMBARKED] 
+
+      registros:  891 
+      missing:    2 
+      válidos:    889 
+      duplicados: 886 
+      categorias: 3 
+
+      Freqs  [f.abs] [ f.rel%] [f.acc%] categorias (max = 10)
+      [         644] [  72.3%] [ 72.3%] S 
+      [         168] [  18.9%] [ 91.1%] C 
+      [          77] [   8.6%] [ 99.8%] Q 
+ 
+
+--------------------------------------------------------------------------------
+### ANÁLISE DOS CAMPOS NUMÉRICOS (INTEIROS E DECIMAIS) de titanic.csv
+
+6) ** PassengerId [PASSENGERID] [INTEIRO]
+
+      Registros:                891
+      Missing:                    0
+      Válidos:                  891
+      Zerados:                    0
+
+                               [Válidos]
+      Registros:                891
+      Soma:                 397,386.0000
+      Média:                    446.0000
+      Desvio:                   257.3538
+      Mínimo:                     1.0000
+      Máximo:                   891.0000
+      Amplitude:                890.0000
+      25%:                      223.5000
+      50%:                      446.0000
+      75%:                      668.5000
+ 
+
+7) ** Survived [SURVIVED] [INTEIRO]
+
+      Registros:                891
+      Missing:                    0
+      Válidos:                  891
+      Zerados:                  549
+
+                               [Válidos]  [Válidos Exc. Zero]
+      Registros:                891                  342
+      Soma:                     342.0000             342.0000
+      Média:                      0.3838               1.0000
+      Desvio:                     0.4866               0.0000
+      Mínimo:                     0.0000               1.0000
+      Máximo:                     1.0000               1.0000
+      Amplitude:                  1.0000               0.0000
+      25%:                        0.0000               1.0000
+      50%:                        0.0000               1.0000
+      75%:                        1.0000               1.0000
+ 
+
+8) ** Pclass [PCLASS] [INTEIRO]
+
+      Registros:                891
+      Missing:                    0
+      Válidos:                  891
+      Zerados:                    0
+
+                               [Válidos]
+      Registros:                891
+      Soma:                   2,057.0000
+      Média:                      2.3086
+      Desvio:                     0.8361
+      Mínimo:                     1.0000
+      Máximo:                     3.0000
+      Amplitude:                  2.0000
+      25%:                        2.0000
+      50%:                        3.0000
+      75%:                        3.0000
+ 
+
+9) ** Age [AGE] [DECIMAL]
+
+      Registros:                891
+      Missing:                  177
+      Válidos:                  714
+      Zerados:                    0
+
+                               [Válidos]
+      Registros:                714
+      Soma:                  21,205.1700
+      Média:                     29.6991
+      Desvio:                    14.5265
+      Mínimo:                     0.4200
+      Máximo:                    80.0000
+      Amplitude:                 79.5800
+      25%:                       20.1250
+      50%:                       28.0000
+      75%:                       38.0000
+ 
+
+10) ** SibSp [SIBSP] [INTEIRO]
+
+      Registros:                891
+      Missing:                    0
+      Válidos:                  891
+      Zerados:                  608
+
+                               [Válidos]  [Válidos Exc. Zero]
+      Registros:                891                  283
+      Soma:                     466.0000             466.0000
+      Média:                      0.5230               1.6466
+      Desvio:                     1.1027               1.4075
+      Mínimo:                     0.0000               1.0000
+      Máximo:                     8.0000               8.0000
+      Amplitude:                  8.0000               7.0000
+      25%:                        0.0000               1.0000
+      50%:                        0.0000               1.0000
+      75%:                        1.0000               2.0000
+ 
+
+11) ** Parch [PARCH] [INTEIRO]
+
+      Registros:                891
+      Missing:                    0
+      Válidos:                  891
+      Zerados:                  678
+
+                               [Válidos]  [Válidos Exc. Zero]
+      Registros:                891                  213
+      Soma:                     340.0000             340.0000
+      Média:                      0.3816               1.5962
+      Desvio:                     0.8061               0.8830
+      Mínimo:                     0.0000               1.0000
+      Máximo:                     6.0000               6.0000
+      Amplitude:                  6.0000               5.0000
+      25%:                        0.0000               1.0000
+      50%:                        0.0000               1.0000
+      75%:                        0.0000               2.0000
+ 
+
+12) ** Fare [FARE] [DECIMAL]
+
+      Registros:                891
+      Missing:                    0
+      Válidos:                  891
+      Zerados:                   15
+
+                               [Válidos]  [Válidos Exc. Zero]
+      Registros:                891                  876
+      Soma:                  28,693.9493          28,693.9493
+      Média:                     32.2042              32.7556
+      Desvio:                    49.6934              49.9368
+      Mínimo:                     0.0000               4.0125
+      Máximo:                   512.3292             512.3292
+      Amplitude:                512.3292             508.3167
+      25%:                        7.9104               7.9250
+      50%:                       14.4542              14.5000
+      75%:                       31.0000              31.2750
+ 
+
+--------------------------------------------------------------------------------
+** ATENÇÃO! nova versão disponível!
+  Você está usando: FCA2 FC Auto Analyser v0.6 beta (set/19)
+  e a nova é:       FCA2 FC Auto Analyser v0.5 beta (set/19)
+  visite github.com/fabianocastello/fca2 para baixar a nova versão 
+--------------------------------------------------------------------------------
+READ.ME de http://raw.githubusercontent.com/fabianocastello/fca2/master/README.md
+
+# FCA2 FC Auto Analyser v0.5 beta (set/19)
+
+(English version on the way - please be pacient)
+
+FCA2 é um algoritmo em Python criado para análise exploratória básica de dados, que visa trazer produtividade para analistas. De forma automática, o algoritmo captura arquivos em formato csv, xls e xlsx e realiza diversas análises:
+
+- identificação de campos texto, campos numéricos inteiros e números decimais
+- campos texto: quantidade de registros, duplicações e de categorias, top "n" categorias (baseada em max_freq)
+- campos numéricos: quantidade de registros, registros zerados, soma total, média, desvio, máximos e mínimos, amplitude, quatis. Mesmas descrições para a base descontando os registros zerados
+
+Desenvolvido por Fabiano Castello, é disponibilizado sob licença GPU GNL 3.0 para toda a comunidade.O código está construído com a estrutura de códigos estruturados dos anos 80. FCA2 é disponibilizado em beta. Use por seu próprio risco.
+
+Contato com o desenvolvedor original em fabianocastello.com
+Código mais atualizado disponível em github.com/fabianocastello/fca2
+
+## DEPENDÊNCIAS
+FCA2 utiliza os seguintes pacotes:
+os, sys, numpy, requests, pandas, datetime, time, socket, locale
+
+## PARÂMETROS
+Parâmetros podem ser alterados no início do código. São auto-explicativos:
+
+datain  = ".\data.in"    #coloque aqui seus arquivos xls ou csv
+dataout = ".\data.out"   #onde analisador vai gravar os resultados
+datalog = ".\data.log"   #onde o analisador vai gravar os logs do processamento 
+datatmp = ".\data.tmp"   #arquivos temporários. Será limpo após o processamento
+
+max_freq = 10            #numeros de categorias máximas nos campos texto 
+
+## COMO USAR
+
+Basta colocar seus arquivos formato xls, xlsx ou csv no diretório de entrada. A leitura é automática e a análise de cada arquivo é disponibilizada no diretório de saída, com o mesmo nome do arquivo.
+
+## NOTAS IMPORTANTES
+
+__ várias pastas em arquivos xls ou xlsx: o FCA2 pegará a primeira delas para analisar.
+
+__ Vírgula "," ou ponto e vírgula ";" em arquivos CSV: o FCA2 conta o número de ocorrências de cada tipo na primeira linha do arquivo, e considera como separador o maior número de ocorrências
+
+--------------------------------------------------------------------------------
+titanic.csv ending. Bye!

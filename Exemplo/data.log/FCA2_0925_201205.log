@@ -1,0 +1,56 @@
+**LOG FCA2 FC Auto Analyser v0.6 beta (set/19)** 
+--------------------------------------------------------------------------------
+Análise automática de arquivos de dados
+--------------------------------------------------------------------------------
+C:\Users\FCastell\!Jupyter@DB\!AutoExplorer
+FCA2_0925_201205.log
+Running on LENOVO18 
+--------------------------------------------------------------------------------
+   1  25/09/2019 20:12:05     <<<<< Log start >>>>> 
+
+   2  25/09/2019 20:12:05     Procurando arquivos em .\data.in
+   3  25/09/2019 20:12:05     Arquivos tipos xls   1
+   4  25/09/2019 20:12:05     Arquivos tipos csv   1
+   5  25/09/2019 20:12:05     Total                2
+
+   6  25/09/2019 20:12:05     Arquivos para analisar:
+                              titanic.csv
+                              titanic.xlsx
+                              
+   7  25/09/2019 20:12:05     Iniciando análise de titanic.csv
+   8  25/09/2019 20:12:05     Separador de CSV selecionado [,]
+   9  25/09/2019 20:12:05     891 registros e 12 campos
+  10  25/09/2019 20:12:05     5 campos tipo texto
+  11  25/09/2019 20:12:05     5 campos tipo numérico (inteiro)
+  12  25/09/2019 20:12:05     2 campos tipo numérico (decimal)
+  13  25/09/2019 20:12:05     0 campos de outros tipos
+  14  25/09/2019 20:12:05     Histograma gravado titanic.csv HIST PassengerId.png
+  15  25/09/2019 20:12:05     Histograma gravado titanic.csv HIST Survived.png
+  16  25/09/2019 20:12:05     Histograma gravado titanic.csv HIST Pclass.png
+  17  25/09/2019 20:12:06     Histograma gravado titanic.csv HIST Age.png
+  18  25/09/2019 20:12:06     Histograma gravado titanic.csv HIST SibSp.png
+  19  25/09/2019 20:12:06     Histograma gravado titanic.csv HIST Parch.png
+  20  25/09/2019 20:12:06     Histograma gravado titanic.csv HIST Fare.png
+  21  25/09/2019 20:12:07     Análise finalizada de titanic.csv
+
+  22  25/09/2019 20:12:07     Iniciando análise de titanic.xlsx
+  23  25/09/2019 20:12:07     891 registros e 12 campos
+  24  25/09/2019 20:12:07     5 campos tipo texto
+  25  25/09/2019 20:12:07     5 campos tipo numérico (inteiro)
+  26  25/09/2019 20:12:07     2 campos tipo numérico (decimal)
+  27  25/09/2019 20:12:07     0 campos de outros tipos
+  28  25/09/2019 20:12:07     Histograma gravado titanic.xlsx HIST PassengerId.png
+  29  25/09/2019 20:12:07     Histograma gravado titanic.xlsx HIST Survived.png
+  30  25/09/2019 20:12:08     Histograma gravado titanic.xlsx HIST Pclass.png
+  31  25/09/2019 20:12:08     Histograma gravado titanic.xlsx HIST Age.png
+  32  25/09/2019 20:12:08     Histograma gravado titanic.xlsx HIST SibSp.png
+  33  25/09/2019 20:12:08     Histograma gravado titanic.xlsx HIST Parch.png
+  34  25/09/2019 20:12:08     Histograma gravado titanic.xlsx HIST Fare.png
+  35  25/09/2019 20:12:09     Análise finalizada de titanic.xlsx
+
+
+  36  25/09/2019 20:12:09     <<<<< Log end >>>>> 
+--------------------------------------------------------------------------------
+Running time total:  0:00:03
+--------------------------------------------------------------------------------
+** Get latest version @ github.com/fabianocastello/fca2
