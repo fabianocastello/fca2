@@ -8,14 +8,16 @@ FCA2 é um algoritmo em Python criado para análise exploratória básica de dad
 - campos texto: quantidade de registros, duplicações e de categorias, top "n" categorias (baseada em max_freq)
 - campos numéricos: quantidade de registros, registros zerados, soma total, média, desvio, máximos e mínimos, amplitude, quatis. Mesmas descrições para a base descontando os registros zerados
 
-Desenvolvido por Fabiano Castello, é disponibilizado sob licença GPU GNL 3.0 para toda a comunidade.O código está construído com a estrutura de códigos estruturados dos anos 80. FCA2 é disponibilizado em beta. Use por seu próprio risco.
+Desenvolvido por Fabiano Castello, é disponibilizado sob licença GNL3.0 para toda a comunidade. O código está construído com a estrutura de códigos estruturados dos anos 80. FCA2 é disponibilizado em beta. Use por seu próprio risco.
 
 Contato com o desenvolvedor original em fabianocastello.com
 Código mais atualizado disponível em github.com/fabianocastello/fca2
+Código original registrado no DOI abaixo:
+https://doi.org/10.6084/m9.figshare.9902417
 
 ## DEPENDÊNCIAS
 FCA2 utiliza os seguintes pacotes:
-os, sys, numpy, requests, pandas, datetime, time, socket, locale
+os, sys, numpy, requests, pandas, datetime, time, socket, locale, seaborn, mathplot
 
 ## PARÂMETROS
 Parâmetros podem ser alterados no início do código. São auto-explicativos:
@@ -34,6 +36,12 @@ Basta colocar seus arquivos formato xls, xlsx ou csv no diretório de entrada. A
 ## NOTAS IMPORTANTES
 
 __ várias pastas em arquivos xls ou xlsx: o FCA2 pegará a primeira delas para analisar.
+__ vírgula "," ou ponto e vírgula ";" em arquivos CSV: o FCA2 conta o número de ocorrências de cada tipo na primeira linha do arquivo, e considera como separador o maior número de ocorrências
 
-__ Vírgula "," ou ponto e vírgula ";" em arquivos CSV: o FCA2 conta o número de ocorrências de cada tipo na primeira linha do arquivo, e considera como separador o maior número de ocorrências
 
+## NO FUTURO
+
+__ colocar todas as informações juntas em um PDF.
+__ inserir data labes nos histogramas.
+__ montar correlação entre variáveis numéricas.
+__ criar uma versão compilada para ampliar o uso por pessoas que não usam python
