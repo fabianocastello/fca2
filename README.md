@@ -1,4 +1,4 @@
-# FCA2 FC Auto Analyser v0.6 beta (set/19)
+﻿# FCA2 FC Auto Analyser v0.6 beta (set/19)
 
 (English version on the way - please be pacient)
 
@@ -10,7 +10,7 @@ FCA2 é um algoritmo em Python criado para análise exploratória básica de dad
 
 Desenvolvido por Fabiano Castello, é disponibilizado sob licença GNL3.0 para toda a comunidade. O código está construído com a estrutura de códigos estruturados dos anos 80. FCA2 é disponibilizado em beta. Use por seu próprio risco.
 
-Contato com o desenvolvedor original em fabianocastello.com
+Contato com o desenvolvedor original em fabianocastello.com 
 Código mais atualizado disponível em github.com/fabianocastello/fca2
 Código original registrado no DOI abaixo:
 https://doi.org/10.6084/m9.figshare.9902417
@@ -31,7 +31,9 @@ max_freq = 10            #numeros de categorias máximas nos campos texto
 
 ## COMO USAR
 
-Basta colocar seus arquivos formato xls, xlsx ou csv no diretório de entrada. A leitura é automática e a análise de cada arquivo é disponibilizada no diretório de saída, com o mesmo nome do arquivo.
+FCA2 rodar, atualmente, a partir de cadernos do Jupyter Notebook, com Kernel Python 3. Recomendo fortemente instalação do Anaconda (www.anaconda.com).
+
+Para rodar o analizadort basta colocar seus arquivos formato xls, xlsx ou csv no diretório de entrada. A leitura é automática e a análise de cada arquivo é disponibilizada no diretório de saída, com o mesmo nome do arquivo.
 
 ## NOTAS IMPORTANTES
 
