@@ -1,4 +1,13 @@
-﻿# FCA2 FC Auto Analyser v0.9 beta (jul/21)
+﻿# INFORMAÇÃO IMPORTANTE
+
+Sempre foi um desejo que houvesse uma aplicação rodando em web, de forma que mais pessoas pudessem utilizar o FCA2. Finalmente temos uma versão beta no ar: acesse http://fabianocastello.com.br/fca2. A versão mais atualizada será a da web. Este site tem a última versão do FCA2, que foi base para a versão web. Se vc deseja contribuir para o desenvolvimento visite https://github.com/fabianocastello/fca2web.
+
+Cheers!
+Fabiano
+julho de 2021
+
+
+# FCA2 FC Auto Analyser v0.9 beta (jul/21)
 
 (no English version - sorry!)
 
@@ -18,7 +27,7 @@ Código original registrado no DOI abaixo:
 https://doi.org/10.6084/m9.figshare.9902417
 
 ## CONTRIBUIÇÕES
-Marcus Pinto (https://github.com/marcuspinto) criou a matrix de correlações em janeiro de 2020.
+Marcus Pinto (https://github.com/marcuspinto) criou a matriz de correlações em janeiro de 2020.
 
 ## DEPENDÊNCIAS
 FCA2 utiliza os seguintes pacotes:
