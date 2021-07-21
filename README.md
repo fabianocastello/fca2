@@ -1,6 +1,6 @@
 ﻿# INFORMAÇÃO IMPORTANTE
 
-Sempre foi um desejo que houvesse uma aplicação rodando em web, de forma que mais pessoas pudessem utilizar o FCA2. Finalmente temos uma versão beta no ar: acesse http://fabianocastello.com.br/fca2. A versão mais atualizada será a da web. Este site tem a última versão do FCA2, que foi base para a versão web. Se vc deseja contribuir para o desenvolvimento visite https://github.com/fabianocastello/fca2web.
+Sempre foi um desejo que houvesse uma aplicação rodando em web, de forma que mais pessoas pudessem utilizar o FCA2. Finalmente temos uma versão beta no ar: acesse http://fabianocastello.com.br/fca2. A versão mais atualizada será a da web. Este site tem a última versão do FCA2 que foi base para a versão web. Se vc deseja contribuir para o desenvolvimento visite https://github.com/fabianocastello/fca2web.
 
 Cheers!
 Fabiano
